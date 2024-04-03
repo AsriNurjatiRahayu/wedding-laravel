@@ -1,0 +1,49 @@
+body {
+    background-color: #fff;
+}
+
+#auth {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#auth .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgb(202, 210, 212);
+    border-radius: 13px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    width: 60% ;
+    box-shadow: 0 1px 4px 0 ;
+}
+
+#auth {
+    padding: 5rem 8rem;
+}
+
+#auth .auth-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#auth .auth-subtitle {
+    color: #a8aebb;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+@media screen and (max-width: 767px) {
+    #auth {
+        padding: 5rem;
+    }
+}
+
